@@ -41,12 +41,14 @@
       2. minor gc and major gc frequency
       3. heap retained via old gen
       4. histogram - to know memory usage by java types
-   3. **Heap Dump Analyser Tooling**: Eclipse MAT 
-      1. Solve common memory anti-patterns via Leak Suspects Report
-      2. Analyzing Threads
-      3. Analyzing Dominator Tree
-      4. Analyzing Histogram
-      5. Analyzing Java Collection Usage
-      6. Querying Heap Objects (OQL)
-      7. Comparing 2 Heap Dumps
-      8. Exploring Paths to the GC Roots 
+   3. **Heap Dump Analyser Tooling**:
+      1. Heap Hero
+      2. Eclipse MAT 
+         1. Solve common memory anti-patterns via Leak Suspects Report
+         2. Analyzing Threads
+         3. Analyzing Dominator Tree
+         4. Analyzing Histogram
+         5. Analyzing Java Collection Usage
+         6. Querying Heap Objects (OQL)
+         7. Comparing 2 Heap Dumps
+         8. Exploring Paths to the GC Roots 

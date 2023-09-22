@@ -51,4 +51,15 @@
          5. Analyzing Java Collection Usage
          6. Querying Heap Objects (OQL)
          7. Comparing 2 Heap Dumps
-         8. Exploring Paths to the GC Roots 
+         8. Exploring Paths to the GC Roots
+
+## GC related debugging
+https://github.com/chewiebug/GCViewer
+
+## Async profiler 
+https://github.com/apangin/java-profiling-presentation
+
+## Debug Maven built time slowness
+https://github.com/timgifford/maven-buildtime-extension
+ 
+   

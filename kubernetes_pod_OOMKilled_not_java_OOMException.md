@@ -1,3 +1,8 @@
+# Background
+Every container in a Pod needs memory to run.
+Kubernetes limits are set per container in either a Pod definition or a Deployment definition.
+All modern Unix systems have a way to kill processes in case they need to reclaim memory. This will be marked as Error 137 or OOMKilled.
+
 # Heap+Non Heap usage not matching with process usage
 In kubernetes world, when JVM is the only process running in container and Heap+nonheap usage metrics are way lower than system memory usage(container_memory_working_set/
 container_memory_rss). 
